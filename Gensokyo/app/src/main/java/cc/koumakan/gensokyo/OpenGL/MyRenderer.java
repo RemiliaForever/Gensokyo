@@ -65,7 +65,6 @@ public class MyRenderer implements GLSurfaceView.Renderer {
         gl.glLoadIdentity();//重置模型观察矩阵
 
         camera.change(gl);
-
         vertex = 0;
         triangle = 0;
         for (Model t : list) {

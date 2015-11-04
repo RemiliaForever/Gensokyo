@@ -6,27 +6,9 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#00000000"
-        android:textColor="#FFFFFFFF"
+        android:background="@drawable/toast_border"
+        android:textColor="#AAFFFFFF"
         android:text="FPS:"
-        android:id="@+id/opengl_debug_fps"/>
-
-    <TextView
-        android:layout_below="@id/opengl_debug_fps"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#00000000"
-        android:textColor="#FFFFFFFF"
-        android:text="VERTEX:"
-        android:id="@+id/opengl_debug_vertex"/>
-
-    <TextView
-        android:layout_below="@id/opengl_debug_vertex"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#00000000"
-        android:textColor="#FFFFFFFF"
-        android:text="TRIANGLE:"
-        android:id="@+id/opengl_debug_triangle"/>
+        android:id="@+id/opengl_debug_info"/>
 
 </RelativeLayout>

@@ -44,9 +44,7 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View view) {
                 mainView.openDebug(myHandler.opengl_debug);
-                rl.findViewById(R.id.opengl_debug_fps).bringToFront();
-                rl.findViewById(R.id.opengl_debug_vertex).bringToFront();
-                rl.findViewById(R.id.opengl_debug_triangle).bringToFront();
+                rl.findViewById(R.id.opengl_debug_info).bringToFront();
                 setContentView(rl);
             }
         });
